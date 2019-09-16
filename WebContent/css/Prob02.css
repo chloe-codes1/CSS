@@ -1,0 +1,202 @@
+@charset "UTF-8";
+
+@import
+	url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Pacifico|Roboto+Slab')
+	;
+
+hgroup {
+	text-align: center;
+	position: relative;
+	text-shadow: 1px solid yellow;
+	
+}
+
+h1{
+	margin: 0px;
+	padding: 0px;
+}
+
+body{
+	margin: 0px;
+	
+}
+
+#top_nav {
+	list-style: none;
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	padding: 15px;
+	margin: 0px;
+	list-style: none;
+	background-color: black;
+	width: 19%;
+	height: 3em;
+	line-height: 3em;
+	
+}
+
+
+#top_nav ul{
+	
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	display: flex;
+	flex-direction: row-reverse;
+	margin: 0px;
+	padding:0px;
+}
+
+#top_nav ul li { /* 요거 ul > li도 되네?!? */
+	display: inline; 
+	text-transform : uppercase;
+	padding: 15px;
+
+}
+
+#top_nav ul li a {
+	text-decoration: none;
+	color: yellow;
+	list-style: none;
+	font-weight: bold;
+	background-color: black;
+	
+}
+
+#main_nav {
+	position: relative;
+}
+
+
+#main_nav ul{
+	margin: 0px;
+}
+
+
+#main_nav ul li {
+	display: inline;
+	text-align: center;
+}
+
+#main_nav ul li a {
+	text-decoration: none;
+	background-color: black;
+	color: yellow;
+	font-weight: bold;
+	margin: 0px;
+	padding: 10px;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	
+}
+
+#main {
+	text-align: center;
+}
+
+#line ul{
+	height: 40px;
+	width:100%;
+	background-color: teal;
+	
+}
+
+header {
+	background-color: orange;
+	border-bottom: 40px solid teal;
+	text-align: center;
+	height: 135px;
+	
+}
+
+#center_a {
+	position: absolute;
+	top: 200px;
+	left:620px;
+}
+
+#right_a {
+	background-color: gray;
+	width: 20%;
+	height: 500px;
+	float: right;
+	
+	
+}
+
+#right_a img {
+	display: block;
+	padding: 10px;
+	margin:0 auto;
+	
+}
+
+#nav1 {
+	
+}
+
+#left_a {
+		
+	width: 20%;
+	background-color: gray;
+	height: 500px;
+	float: left;
+}
+
+#left_a ul li {
+	list-style: none;
+	
+}
+
+.btn1 {
+	display: block;
+	color: green;
+	background-color: orange;
+	text-align: center;
+	text-decoration: none;
+	width: 100px;
+	height: 40px;
+	line-height: 40px;
+	border: 2px solid white;
+	border-radius: 10px; /* 얼마만큼 끝에 둥글게 할지... */
+	font-weight: bolder;
+	font-size: 1.2m;
+	margin: 20px;
+	padding: 0px;
+}
+
+.tablea{
+	
+	width: 400px;
+	text-align: center;
+	border: 2px solid black;
+}
+
+
+table, thread, tr, th, td{
+	border: none;
+	margin: 0px;
+	border-spacing: 0px;
+}
+
+
+th{
+	color: orange;
+	background: black;
+	font-weight: bold;
+}
+
+
+.gray_area{
+	background: gray;
+	
+}
+
+footer{
+	clear: both;
+	height: 40px;
+	width: 100%;
+	background-color: black;
+	
+}

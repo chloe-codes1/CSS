@@ -1,0 +1,50 @@
+@charset "UTF-8";
+
+ul{
+	list-style: none;
+	text-align: center;
+	border-top: 1px solid gray;
+	border-bottom: 1px solid gray;
+	padding: 10px 0;	 /* 들여쓰기 */
+	letter-spacing: 5px; /* 자간 */
+}
+
+ul li{ /* 요거 ul > li도 되네?!? */
+	display: inline;
+	text-transform: uppercase;
+	padding: 10px;
+
+}
+
+ul li a {
+	text-decoration: none;
+	color: black;
+
+}
+
+ul li a:hover {
+	text-decoration: underline;
+	color: red;
+}
+
+a.btn {
+	display: block;
+	color: black;
+	background-color: gray;
+	text-align: center;
+	text-decoration: none;
+	width: 100px;
+	height: 40px;
+	border: 1px solid silver;
+	border-radius: 15px; /* 얼마만큼 끝에 둥글게 할지... */
+	line-height: 40px;
+	font-weight: bolder;
+	font-size: 1.2m;
+	margin: 0 auto;
+}
+
+a.btn:hover{
+
+	color: teal;
+	text-shadow: 2px 2px 2px white;
+}

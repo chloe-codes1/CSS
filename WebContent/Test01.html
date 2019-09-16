@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+
+<title>Test01 CSS</title>
+
+<style type="text/css">
+body {
+	background-color: darkgray;
+}
+
+/*class가 r인 애들 모두*/
+.r {
+	background-color: teal;
+}
+
+/* <p> tag인 애들 중에 class가 r인 애들만 */
+p.r {
+	background-color: navy;
+	color: white;
+}
+
+div p.r {
+	background-color: blue;
+}
+
+/* body tag의 직손 자식만 */
+body > p.r {
+	background-color: yellow;
+	color: gray;
+}
+
+
+/*id가 hb인 애*/
+#hb {
+	background-color: black;
+	color: gray;
+}
+
+#hc {
+	border: 2px solid white;
+	text-align: center;
+}
+
+h1 {
+	background-color: gray;
+	color: white;
+	font-family: monospace;
+}
+
+/* :hover  => 마우스 올리면 적용*/
+h1:hover {
+
+	text-align: center;
+	background-color: black;
+}
+
+h1, h2, h3, h4, h5 {
+	color: white;
+	font-family: monospace;
+}
+
+body, h1 {
+	margin: 30px;
+	padding: 10px;
+}
+
+/* <a> tag는 block 아니고 in-line 임!  => 그래서 text-align 적용 안 됨*/
+a{
+	display:block;
+    background-color: yellow
+	text-align: center;
+	text-decoration: none;
+}
+
+a:hover{
+
+	text-decoration: underline;
+}
+
+/*img tag는 block이 아님!*/
+img {
+	display:block;
+
+}
+
+
+
+
+/*id는 하나만 가능하지만, class는 여러개 선택 가능!*/
+</style>
+
+</head>
+<body>
+
+	<a href="/1_html"> 1_html 예제</a>
+
+	<h1 class="r">CSS 선택 기본 1</h1>
+	<h2>CSS 선택 기본 2</h2>
+	<h3 id="hb">CSS 선택 기본 3</h3>
+	<h4 id="hc">CSS 선택 기본 4</h4>
+	<h5 class="r">CSS 선택 기본 5</h5>
+
+	<div>
+		<p>CSS is a language that describes the style of an HTML document.</P>
+		<P class="r">CSS describes how HTML elements should be displayed. </P>
+		<P>This tutorial will teach you CSS from basic to advanced.</p>
+	</div>
+	
+	<hr>
+	
+		<p>CSS is a language that describes the style of an HTML document.</P>
+		<P class="r">CSS describes how HTML elements should be displayed. </P>
+		<P>This tutorial will teach you CSS from basic to advanced.</p>
+
+	<img alt="" src="./img/pancake.jpg">
+What is CSS?
+CSS stands for Cascading Style Sheets
+CSS describes how HTML elements are to be displayed on screen, paper, or in other media
+CSS saves a lot of work. It can control the layout of multiple web pages all at once
+External style sheets are stored in CSS files
+</body>
+</html>

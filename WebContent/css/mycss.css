@@ -1,0 +1,16 @@
+@charset "UTF-8";
+
+/*모든곳에 지정*/
+* {
+	margin: 5px;
+	color: navy;
+	font-family: monospace;
+}
+
+a{
+	text-decoration: none;
+}
+
+a:hover{
+	text-decoration: underline;
+}

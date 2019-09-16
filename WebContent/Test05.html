@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+
+
+<title>Layout</title>
+<style type="text/css">
+#header {
+	width: 100%;
+	background-color: gray;
+	margin: 0 auto;
+	text-align: center;
+	color: white;
+}
+
+#contents {
+	width: 100%;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+#menu {
+	width: 25%;
+	background-color: navy;
+	color: white;
+	float: left;
+}
+
+#main {
+	width: 75%;
+	background-color: yellow;
+	float: right;
+}
+
+#footer {
+	text-decoration: underline;
+	text-align: right;
+	font-style: italic;
+	background-color: green;
+	clear: both; /* 앞에 있는 float 속성에 영향을 받지 않겠다 */
+}
+</style>
+
+
+</head>
+<body>
+
+	<h3>Layout</h3>
+
+	<div id="header">
+		<h1>오늘의 뉴스</h1>
+
+	</div>
+
+	<div id="contents">
+		<div id="menu">
+
+			<ul>
+				<li><a href="#"> Home</a></li>
+				<li><a href="#"> Login</a></li>
+				<li><a href="#"> Join</a></li>
+				<li><a href="#"> References</a></li>
+
+
+			</ul>
+		</div>
+		<div id="main">
+			<h3>CSS Margins</h3>
+			<p>The CSS margin properties are used to create space around
+				elements, outside of any defined borders. With CSS, you have full
+				control over the margins. There are properties for setting the
+				margin for each side of an element (top, right, bottom, and left).</p>
+
+			<h3>Margin - Individual Sides</h3>
+			<p>CSS has properties for specifying the margin for each side of
+				an element: margin-top margin-right margin-bottom margin-left All
+				the margin properties can have the following values: auto - the
+				browser calculates the margin length - specifies a margin in px, pt,
+				cm, etc. % - specifies a margin in % of the width of the containing
+				element inherit - specifies that the margin should be inherited from
+				the parent element</p>
+		</div>
+	</div>
+
+	<div id="footer">기사 제보 및 문의: juhyun@gmail.com</div>
+
+
+</body>
+</html>
